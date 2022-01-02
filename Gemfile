@@ -58,6 +58,10 @@ group :development, :test do
   gem 'rubocop-rspec', '~> 2.7', require: false
 end
 
+group :test do
+  gem 'simplecov', '~> 0.21', require: false
+end
+
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
