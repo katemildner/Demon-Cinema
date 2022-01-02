@@ -153,6 +153,8 @@ GEM
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.7.0, < 2.0)
+    rubocop-rspec (2.7.0)
+      rubocop (~> 1.19)
     ruby-progressbar (1.11.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -193,6 +195,7 @@ DEPENDENCIES
   rails (~> 7.0.0)
   rubocop (~> 1.24)
   rubocop-rails (~> 2.13)
+  rubocop-rspec (~> 2.7)
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
