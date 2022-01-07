@@ -9,4 +9,4 @@ development:
   database: demon_cinema_development
   host: localhost
   username: demon_cinema
-  password: <%= ENV['DEMON_CINEMA_DEVELOPMENT_DB_PASS'] =>
+  password: <%= ENV['DEMON_CINEMA_DEVELOPMENT_DB_PASS'] %>
