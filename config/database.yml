@@ -10,3 +10,10 @@ development:
   host: localhost
   username: demon_cinema
   password: <%= Rails.application.credentials.DEMON_CINEMA_DEVELOPMENT_DB_PASS %>
+
+test:
+  <<: *default
+  database: demon_cinema_test
+  host: localhost
+  username: test_user
+  password: code418
