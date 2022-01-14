@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @cinema_hall %>
+
+<div>
+  <%= link_to "Edit this cinema hall", edit_cinema_hall_path(@cinema_hall) %> |
+  <%= link_to "Back to cinema halls", cinema_halls_path %>
+
+  <%= button_to "Destroy this cinema hall", @cinema_hall, method: :delete %>
+</div>
